@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet & Style | Seu melhor amigo com o melhor estilo</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+
+    <!-- Container Cabeçalho + Menu -->
+    <div class="m-8 bg-[#FAF1E0] rounded-lg p-4">
+
+        <!-- Cabeçalho -->
+        <header class="flex-col md:flex-row items-center mr-[50%]">
+            <img src="img/logo.png" class="sm:w-full md:w-1/2"/>
+        </header>
+
+        <!-- Menu de Navegação -->
+        <nav class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8 mt-6 md:mt-0 lg:gap-[3%]">
+            <a href="#home" class="md:text-2xl lg:text-3xl font-bold text-slate-600 hover:text-emerald-600">Home</a>
+            <a href="#produtos" class="md:text-2xl lg:text-3xl font-bold text-slate-600 hover:text-emerald-600">Produtos</a>
+            <a href="#depoimentos" class="md:text-2xl lg:text-3xl font-bold text-slate-600 hover:text-emerald-600">Depoimentos</a>
+            <a href="#contato" class="md:text-2xl lg:text-3xl font-bold text-slate-600 hover:text-emerald-600">Contato</a>
+        </nav>
+    </div>
+
+    <!-- Seção Home -->
+    <section id="home" class="m-8 bg-[#CAF2EF] rounded-lg p-4">
+        <div class="shadow-xl items-center justify-center bg-[#AD9B8B] rounded-lg mt-8 mb-10 border-dotted border-4 border-[#023006]">
+            <h1 class="sm:text-lg md:text-4xl font-bold text-[#023006] p-10 text-center">Conforto e estilo para o seu pet? Temos!</h1>
+            <p class="sm:text-md md:text-lg lg:text-xl text-[#023006] p-10 bg-[#FAE2D1] mt-10 opacity-75 text-center">Seu melhor amigo merece o melhor estilo, e a Pet & Style vai te ajudar nisso. <a href="#produtos" class="text-[#634B61] hover:text-emerald-600">Conheça nossa coleção exclusiva de acessórios para pets que combinam conforto e moda</a>.</p>.
+            <img src="img/home.png" alt="Filhote de gato utilizando uma roupinha de nosso ateliê, na cor verde" class="mx-auto rounded-lg shadow-lg opacity-75 hover:opacity-100 mb-8" />
+        </div>
+    </section>
+
+    <!-- Seção Produtos-->
+    <section id="produtos" class="m-8 bg-[#E0F2C7] rounded-lg p-4">
+
+        <h1 class="sm:text-lg md:text-4xl font-bold text-[#023006] text-center p-10">Conheça nossos produtos!</h1>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 p-6">
+
+            <!-- Card 1 -->
+            <div class="bg-white rounded-lg shadow hover:shadow-lg overflow-hidden">
+                <img src="img/produtos/roupinhas.png" alt="Filhote de cachorro usando nossa roupinha, inspirada no uniforme dos bombeiros" class="mx-auto mt-2 rounded-lg shadow-lg opacity-75 hover:opacity-100 w-2/3">
+                <div class="p-4 text-center items-center">
+                    <h3 class="sm:text-md md:text-lg font-bold text-gray-800">Roupinhas</h3>
+                    <p class="text-gray-600 mt-2">Roupinhas para pets de todos os tipos e tamanhos.</p>
+                    <button class="mt-4 bg-[#C8CF90] text-slate-600 px-4 py-2 rounded hover:bg-[#D6518E] hover:text-white">Quero ver!</button>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white rounded-lg shadow hover:shadow-lg overflow-hidden">
+                <img src="img/produtos/caminhas.png" alt="Gato adulto dormindo em nossa caminha, inspirada nas cores da Sonserina (Harry Potter)" class="mx-auto mt-2 rounded-lg shadow-lg opacity-75 hover:opacity-100 w-2/3">
+                <div class="p-4 text-center items-center">
+                    <h3 class="sm:text-md md:text-lg font-bold text-gray-800">Caminhas</h3>
+                    <p class="text-gray-600 mt-2">Caminhas confortáveis para uma boa noite de sono.</p>
+                    <button class="mt-4 bg-[#C8CF90] text-slate-600 px-4 py-2 rounded hover:bg-[#D6518E] hover:text-white">Quero ver!</button>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white rounded-lg shadow hover:shadow-lg overflow-hidden">
+                <img src="img/produtos/brinquedos.png" alt="Filhote de cachorro brincando com o nosso ratinho de brinquedo" class="mx-auto mt-2 rounded-lg shadow-lg opacity-75 hover:opacity-100 w-2/3">
+                <div class="p-4 text-center items-center">
+                    <h3 class="sm:text-md md:text-lg font-bold text-gray-800">Brinquedos</h3>
+                    <p class="text-gray-600 mt-2">Hora de brincar! Seu pet vai se divertir muito!</p>
+                    <button class="mt-4 bg-[#C8CF90] text-slate-600 px-4 py-2 rounded hover:bg-[#D6518E] hover:text-white">Quero ver!</button>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bg-white rounded-lg shadow hover:shadow-lg overflow-hidden">
+                <img src="img/produtos/acessorios.png" alt="Coelho adulto usando nosso comedouro personalizado" class="mx-auto mt-2 rounded-lg shadow-lg opacity-75 hover:opacity-100 w-2/3">
+                <div class="p-4 text-center items-center">
+                    <h3 class="sm:text-md md:text-lg font-bold text-gray-800">Acessórios</h3>
+                    <p class="text-gray-600 mt-2">Tudo para deixar o ambiente que seu pet vive lindo.</p>
+                    <button class="mt-4 bg-[#C8CF90] text-slate-600 px-4 py-2 rounded hover:bg-[#D6518E] hover:text-white">Quero ver!</button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Seção Depoimentos -->
+    <section id="depoimentos" class="m-8 bg-[#FAD4C0] rounded-lg p-4">
+
+        <h1 class="sm:text-lg md:text-4xl font-bold text-[#023006] text-center p-10">Depoimentos</h1>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
+
+            <!-- Block 1 -->
+            <blockquote class="bg-[#FFF4F4] rounded-lg shadow hover:shadow-lg p-4">
+                <p class="text-gray-800 italic">"A Pet & Style deixou o meu gato muito estiloso! As roupinhas, além de lindas, são muito confortáveis. Recomendo!"</p>
+                <p class="text-gray-600 mt-2 text-right">- Ana Souza</p>
+            </blockquote>
+
+            <!-- Block 2 -->
+            <blockquote class="bg-[#FFF4F4] rounded-lg shadow hover:shadow-lg p-4">
+                <p class="text-gray-800 italic">"Comprei uma caminha para meu cachorro e ele adora! Muito confortável e de ótima qualidade."</p>
+                <p class="text-gray-600 mt-2 text-right">- Bruno Alves</p>
+            </blockquote>
+
+            <!-- Block 3 -->
+            <blockquote class="bg-[#FFF4F4] rounded-lg shadow hover:shadow-lg p-4">
+                <p class="text-gray-800 italic">"Os brinquedos são incríveis! Meu hamster não para de brincar com a rodinha que comprei."</p>
+                <p class="text-gray-600 mt-2 text-right">- Carla Ribeiro</p>
+            </blockquote>
+
+        </div>
+
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="m-8 bg-[#D4F1F4] rounded-lg p-4">
+
+        <h1 class="sm:text-lg md:text-4xl font-bold text-[#023006] text-center p-10">Contato</h1>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-6">
+
+            <!-- Dados da Empresa -->
+            <div class="bg-[#E8F4F3] rounded-lg shadow hover:shadow-lg p-4">
+                <h2 class="sm:text-md md:text-lg font-bold text-gray-800 mb-4 text-center">Nossos Contatos</h2>
+
+                <p class="text-gray-600 mb-2 font-bold">Telefone / Whatsapp:</p> 
+                <p class="text-gray-600 mb-2">(11) 98765-4321</p>
+                <p class="text-gray-600 mb-2 font-bold">E-mail:</p>
+                <p class="text-gray-600 mb-2">suporte@petstyle.com.br</p>
+                <p class="text-gray-600 mb-2 font-bold">Endereço:</p> 
+                <p class="text-gray-600 mb-2">Rua das Flores, nº 123 - Bloco 4, Sala 5 - Condomínio Primavera - Bairro: Jardim Estação - São Paulo/SP - CEP: 12345-678</p>
+                <p class="text-gray-600 mb-2 font-bold">Localização:</p> 
+                <img src="img/maps_exemplo.png" alt="Exemplo de API do Maps, pode vir aqui" class="mx-auto block w-3/4"/>
+            </div>
+
+            <!-- Formulário de Contato-->
+            <div class="bg-[#E8F4F3] rounded-lg shadow hover:shadow-lg p-4">
+                <h2 class="sm:text-md md:text-lg font-bold text-gray-800 mb-4 text-center">Formulário</h2>
+
+                <div class="max-w-xl mx-auto">
+                    <form>
+                        <label class="text-gray-600" for="nome" required>Nome Completo: </label>
+                        <input class="opacity-90 bg-white rounded shadow hover:shadow-lg w-full mb-8" type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+
+                        <label class="text-gray-600" for="fone" required>Telefone / Celular: </label>
+                        <input class="opacity-90 bg-white rounded shadow hover:shadow-lg w-full mb-8" type="tel" id="fone" name="fone" placeholder="Digite telefone ou celular com DDD" required>
+
+                        <label class="text-gray-600" for="email" required>E-mail: </label>
+                        <input class="opacity-90 bg-white rounded shadow hover:shadow-lg w-full mb-8" type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+                        <label class="text-gray-600" for="assunto" required>Assunto: </label>
+                        <select class="opacity-90 bg-white rounded shadow hover:shadow-lg w-full mb-8" id="assunto" name="assunto" required>
+                            <option value="" disabled selected>-- Selecione --</option>
+                            <option value="duvida">Dúvida sobre produtos</option>
+                            <option value="pedido">Status do meu pedido</option>
+                            <option value="reclamacao">Reclamação</option>
+                            <option value="sugestao">Sugestão</option>
+                        </select>
+
+                        <textarea class="opacity-90 bg-white rounded shadow hover:shadow-lg w-full mb-8" id="mensagem" name="mensagem" rows="4" placeholder="Digite sua mensagem" required></textarea>
+
+                        <button class="bg-[#96A7F4] text-slate-600 px-4 py-2 rounded hover:bg-[#C8CF90] mx-auto block" type="submit">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="bg-[#DDD] mt-5 p-5">
+        <p class="text-emerald-700 text-center font-bold">Copyright &copy; 2025 - Pet & Style - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
